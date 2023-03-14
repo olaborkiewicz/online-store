@@ -18,6 +18,10 @@ const links = [
     {
         path: "/checkout",
         name: "Checkout"
+    },
+    {
+        path: "/test",
+        name: "Test"
     }
 ];
 

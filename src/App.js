@@ -4,6 +4,7 @@ import Landing from './views/Landing';
 import Product from './views/Product';
 import Search from './views/Search';
 import Cart from './views/Cart';
+import Test from './views/Test';
 
 import './App.css';
 
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
   {
     path: "checkout",
     element: <Checkout />
+  }
+  ,
+  {
+    path: "test",
+    element: <Test />
   }
 ]);
 

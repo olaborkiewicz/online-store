@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Landing from './views/Landing';
-import Search from './views/Search';
-import Product from './views/Product';
-import Cart from './views/Cart';
 import Checkout from './views/Checkout';
+import Landing from './views/Landing';
+import Product from './views/Product';
+import Search from './views/Search';
+import Cart from './views/Cart';
 
 import './App.css';
 

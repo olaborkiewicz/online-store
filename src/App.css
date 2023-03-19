@@ -29,51 +29,12 @@
 }
 
 /* Style for navigation bar */
-.navigation {
-  display: flex;
-  height: 50px;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #4e4e4e;
+.link-dark:hover {
+  color: #617284;
 }
 
-.navigation-list {
-  display: block;
-  list-style: none;
-}
-
-.navigation-list-item {
-  display: inline;
-}
-
-.navigation-list-item a {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #f1f1f1;
-  padding: 14px;
-}
-
-.navigation-list-item a:hover {
-  background-color: #282c34;
-}
-
-.navigation-cart {
-  display: flex;
-  position: relative;
-}
-
-.amountOfProducts {
-  width: 21px;
-  height: 21px;
-  border-radius: 50%;
-  background-color: #e07a64;
-}
-
-.navigation-cart-icon {
-  width: 50px;
-  height: 50px;
+.navbar-collapse {
+  flex-grow: 0;
 }
 
 @keyframes App-logo-spin {

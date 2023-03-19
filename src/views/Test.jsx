@@ -1,13 +1,10 @@
-import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 const Test = () => {
     return (
         <main>
             <h1>Test</h1>
-            <Form />
-
-            <p>----------</p>
-            <Form showBtn={true} />
+            <Footer />
         </main>
     );
 }

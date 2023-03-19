@@ -1,14 +1,15 @@
 import { FaFacebookF, FaInstagramSquare } from "react-icons/fa";
+import styles from "../App.css";
 
 const Footer = () => {
     return (
-        <div className="container_foot">
-            <div className="left">
+        <div className={styles.container_foot}>;
+            <div className={styles.left}>
                MamStajla © 2023. Made with ShopPress.pl
             </div>
-            <div className="right">
-         <FaFacebookF className="icon"/>
-         <FaInstagramSquare className="icon"/>
+            <div className={styles.right}>
+         <FaFacebookF className={styles.icon}/>
+         <FaInstagramSquare className={styles.icon}/>
             </div>
         </div>
     );

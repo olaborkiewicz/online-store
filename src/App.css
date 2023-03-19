@@ -48,6 +48,10 @@
   width: 50%;
 }
 
+.left {
+  margin-left: 40px;
+}
+
 .right {
   justify-content: right;
   align-items: center;

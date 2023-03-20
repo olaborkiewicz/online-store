@@ -29,10 +29,6 @@
 }
 
 /* Style for navigation bar */
-.link-dark:hover {
-  color: #617284;
-}
-
 .navbar-collapse {
   flex-grow: 0;
 }

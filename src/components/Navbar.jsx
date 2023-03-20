@@ -35,7 +35,10 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="navbar-brand link-dark mx-2" href="/checkout">
+        <a
+          className="navbar-brand link-dark mx-2 ms-auto ms-md-0"
+          href="/checkout"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"

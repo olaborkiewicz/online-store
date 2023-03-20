@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import styles from "../App.css";
+import { FaFacebookF, FaInstagramSquare } from 'react-icons/fa';
+import styles from "./Footer.module.css";
 
 const Footer = () => {
     return (
@@ -8,8 +8,8 @@ const Footer = () => {
                <p className={styles.left}>MamStajla © 2023. Made with ShopPress.pl</p>
             </div>
             <div className={styles.right}>
-         <FontAwesomeIcon icon="fa-brands fa-square-facebook" className={styles.icon} />
-         <FontAwesomeIcon icon="fa-brands fa-square-instagram" className={styles.icon}/>
+         <FaFacebookF className={styles.icon} />
+         <FaInstagramSquare className={styles.icon}/>
             </div>
         </div>
     );

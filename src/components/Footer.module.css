@@ -16,7 +16,8 @@
 .right {
   justify-content: right;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 70px;
+  color: rgb(23, 8, 75);
 }
 
 .icon {

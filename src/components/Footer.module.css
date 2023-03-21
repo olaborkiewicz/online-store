@@ -1,0 +1,27 @@
+.container_foot {
+  display: flex;
+  width: 100%;
+}
+
+.left,
+.right {
+  display: flex;
+  width: 50%;
+}
+
+.left {
+  margin-left: 40px;
+}
+
+.right {
+  justify-content: right;
+  align-items: center;
+  margin-right: 70px;
+  color: rgb(23, 8, 75);
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+}

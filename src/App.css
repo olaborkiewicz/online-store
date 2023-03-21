@@ -28,10 +28,31 @@
   color: #61dafb;
 }
 
+
 /* Style for navigation bar */
 .navbar-collapse {
   flex-grow: 0;
 }
+
+/* Style for box-container */
+.box-container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-container {
+    width: 960px;
+  }
+}
+
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,11 +1,10 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 const Cart = () => {
     return (
-        <main>
-            <Navbar />
+        <Layout>
             <p>Cart</p>
-        </main>
+        </Layout>
     );
 }
 

@@ -1,11 +1,14 @@
-import Navbar from '../components/Navbar';
+import { useParams } from 'react-router-dom';
+import Layout from '../components/Layout';
 
 const Product = () => {
+    const { productSlug } = useParams();
+
     return (
-        <main>
-            <Navbar />
+        <Layout>
             <p>Product</p>
-        </main>
+            Slug: {productSlug}
+        </Layout>
     );
 }
 

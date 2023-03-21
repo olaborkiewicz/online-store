@@ -1,11 +1,10 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 const Checkout = () => {
     return (
-        <main>
-            <Navbar />
+        <Layout>
             <p>Checkout</p>
-        </main>
+        </Layout>
     );
 }
 

@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+
+/* Style for navigation bar */
+.navbar-collapse {
+  flex-grow: 0;
+}
+
 /* Style for box-container */
 .box-container {
   width: 96%;
@@ -45,6 +51,7 @@
     width: 960px;
   }
 }
+
 
 
 @keyframes App-logo-spin {

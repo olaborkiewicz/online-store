@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import Container from "../components/Container";
-
 import TestCounter from "../components/TestComponents/TestCounter";
 import TestSelect from "../components/TestComponents/TestSelect";
 import TestSearch from "../components/TestComponents/TestSearch";
@@ -28,7 +26,6 @@ const Test = () => {
         <h1>Test 3 - Search</h1>
         <TestSearch />
       </div>
-      <Container />
     </main>
   );
 };

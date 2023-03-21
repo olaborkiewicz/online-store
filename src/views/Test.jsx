@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import ProductCard from "../components/ProductCard";
-
 import TestCounter from "../components/TestComponents/TestCounter";
 import TestSelect from "../components/TestComponents/TestSelect";
 import TestSearch from "../components/TestComponents/TestSearch";
@@ -28,24 +26,6 @@ const Test = () => {
         <h1>Test 3 - Search</h1>
         <TestSearch />
       </div>
-      <ProductCard
-        image={
-          "https://img.ltwebstatic.com/images3_pi/2023/02/21/16769546216e86a3d7399b1cae76b6b52fd59f8014_thumbnail_900x.webp"
-        }
-        title="Przykładowa sukienka"
-        shortDesc="Przykładowy opis przykładowej sukienki"
-        price="159,99 zł"
-        isFeatured="true"
-      />
-      <ProductCard
-        image={
-          "https://img.ltwebstatic.com/images3_pi/2022/09/01/166200262963d04769b63a6ddb1d8d958b7881e505_thumbnail_405x552.webp"
-        }
-        title="Przykładowa sukienka"
-        shortDesc="Przykładowy opis przykładowej sukienki"
-        price="159,99 zł"
-        isFeatured="true"
-      />
     </main>
   );
 };

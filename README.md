@@ -1,5 +1,7 @@
 # [FC] Online Store App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f18a104-c46a-457b-8f5e-5a855a1a6dae/deploy-status)](https://app.netlify.com/sites/moonlit-florentine-6305d8/deploys)
+  
 This project includes an online store frontend connected to the ShopPress.pl API.  
 The frontend of the store includes:
 * landing page

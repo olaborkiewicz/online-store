@@ -18,7 +18,7 @@ const ProductCard = ({
       <div>
         <h3 className="product-title">{title}</h3>
         {shortDesc && <p className="product-description">{shortDesc}</p>}
-        <p className="product-price">{price}</p>
+        <p className="product-price">{price} zł</p>
       </div>
     </div>
   );

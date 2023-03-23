@@ -8,10 +8,6 @@ const links = [
         name: "Search"
     },
     {
-        path: "/product",
-        name: "Product"
-    },
-    {
         path: "/cart",
         name: "Cart"
     },

@@ -1,4 +1,3 @@
-import '../App.css';
 const Button = ({ outline = false, size = "md", onClick, children }) => {
   const classes = `${outline ? "button-outline" : ""} ${size ? `button-${size}` : ""}`;
 

@@ -4,7 +4,6 @@ const minItemQty = 1;
 
 const Counter = ({ quantity, setQuantity, maxQty }) => {
 
-
     const handleMinus = () => {
         if (quantity === minItemQty) return;
         setQuantity((prev) => prev - 1);

@@ -5,9 +5,11 @@ import Container from '../components/Container';
 import ClassCounter from '../components/ClassComponents/ClassCounter';
 import Button from '../components/Button';
 import { api, ENDPOINTS } from '../services/api';
+import { useCart } from '../context/cart.context';
 
 const Product = () => {
     const { productSlug } = useParams();
+    const { state, setState } = useCart();
 
     const [quantity, setQuantity] = useState(1);
     const [isLoaded, setIsLoaded] = useState(false);
@@ -30,13 +32,23 @@ const Product = () => {
     }, []);
 
     const addToCart = () => {
-        // @TODO
+        const newState = [...state];
+
+        newState.push({
+            id: product.id,
+            name: product.name,
+            price: product.price,
+            image: product.mainImage.src,
+            quantity: quantity
+        });
+
+        setState(newState);
     }
 
     if (!isLoaded) {
         return (
-            <div class="spinner-border" role="status" style={{ margin: "50% auto", display: "block" }}>
-                <span class="sr-only" />
+            <div className="spinner-border" role="status" style={{ margin: "50% auto", display: "block" }}>
+                <span className="sr-only" />
             </div>
         )
     }

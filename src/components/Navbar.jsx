@@ -1,7 +1,15 @@
+import { useCallback } from 'react';
 import { Link } from "react-router-dom";
 import { links } from "../data/routes";
+import { useCart } from '../context/cart.context';
 
 const Navbar = () => {
+  const { state } = useCart();
+
+  console.log("state", typeof state);
+
+  const totalQuantity = useCallback(() => state.reduce((acc, curr) => (acc + curr.quantity), 0), [state]);
+
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
       <div className="container-fluid">
@@ -39,6 +47,7 @@ const Navbar = () => {
           className="navbar-brand link-dark mx-2 ms-auto ms-md-0"
           href="/checkout"
         >
+          <span className="rounded alert-primary p-2">{totalQuantity()}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"
